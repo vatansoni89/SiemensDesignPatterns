@@ -7,6 +7,11 @@ namespace MyCar
         private int _speed;
         public Action<int> SpeedChanged;
 
+        //This will also work.
+        //public delegate void SpeedChangedEventHandler(int speed);
+        //public event SpeedChangedEventHandler SpeedChanged;
+
+
         public int Speed
         {
             get => _speed;

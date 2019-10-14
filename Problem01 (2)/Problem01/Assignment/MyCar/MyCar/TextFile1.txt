@@ -1,0 +1,15 @@
+﻿Program:
+  CarSpeedSimulator:
+    Speedometer:
+	  Alarm
+
+--------------------
+
+CarSpeedSimulator:
+  SpeedChanged: Its a delegate decleared here which we use to attach a function where CarSpeedSimulator
+                is being passed. So on change of Speed (defined as prop) this fun will execute.
+Speedometer:
+  OnSpeedChanged
+
+Seatbelt:
+  OnSpeedChanged
